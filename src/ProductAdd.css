@@ -1,0 +1,89 @@
+.product-add-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #ccc;
+  }
+  
+  .product-add-container h2 {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-field label {
+    margin-bottom: 5px;
+  }
+  
+  .form-field input,
+  .form-field select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .btn-save,
+  .btn-cancel {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-save:hover,
+  .btn-cancel:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-add-btns-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .product-add-btns-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .product-add-btns-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-save,
+  .btn-cancel {
+    margin-left: 10px;
+  }
+  
